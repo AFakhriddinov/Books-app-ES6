@@ -1,5 +1,5 @@
 /* eslint-disable*/
-export const displayPage = (show, hide) => {
+const displayPage = (show, hide) => {
   const showElement = document.querySelector(show);
   showElement.classList.remove("hide");
   for (let i = 0; i < Object.keys(hide).length; i++) {
@@ -9,3 +9,5 @@ export const displayPage = (show, hide) => {
     }
   }
 };
+
+export default displayPage;
