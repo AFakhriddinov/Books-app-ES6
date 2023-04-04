@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Awesome books app</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header id="header" class="d-flex row">
+      <div id="logo" class="d-flex row">
+        <i class="fa-solid fa-book-open"></i>
+        <a class="logo-text">Awesome Books</a>
+      </div>
+      <nav class="navbar">
+        <ul id="nav-list" class="d-flex row">
+          <li class="nav-item">
+            <a id="link-list" class="a" href="#">List</a>
+          </li>
+          <li class="nav-item">
+            <a id="link-add" class="a" href="#">Add new</a>
+          </li>
+          <li class="nav-item">
+            <a id="link-contact" class="a" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="clock"></div>
+
+    <!-- Dynamic contents with JS-->
+    <div id="main">
+      <div id="book-collection" class="book-collection">
+        <h2 class="submain-h2">All Awesome books</h2>
+        <div id="book_list"></div>
+      </div>
+
+      <div id="add-book" class="add-book hide">
+        <h2 class="submain-h2">Add a new book</h2>
+        <form action="">
+          <input
+            class="input"
+            type="text"
+            placeholder="Title"
+            id="title_input"
+          />
+
+          <input
+            class="input"
+            type="text"
+            placeholder="Author"
+            id="author_input"
+          />
+
+          <button id="add_button" onclick="">Add</button>
+        </form>
+      </div>
+      <div id="contact" class="contact hide">
+        <h2 class="submain-h2">Contact Information</h2>
+        <p>Do you have any questions or you just want to say "Hello"?</p>
+        <p>You can reach out to us</p>
+        <ul class="contact-ul">
+          <li class="contact-li">Our email: awesomebooks@mail.com</li>
+          <li class="contact-li">Our number: +61426427477</li>
+          <li class="contact-li">
+            Our address: 29 Kingsland Road, Sydney, Australia
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      <i class="fa fa-copyright" aria-hidden="true"></i> Copyright 2023. All
+      rights reserved
+    </footer>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
