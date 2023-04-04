@@ -172,4 +172,4 @@ I would like to thank Microverse team and reviewers who helped me make this proj
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/AFakhriddinov/Books-app/blob/book-app/LICENSE) licensed.
+This project is [MIT](https://github.com/AFakhriddinov/Books-app-ES6/blob/books-app-ES6/LICENSE) licensed.
