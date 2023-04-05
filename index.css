@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Martian+Mono:wght@200;300;400&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Oswald:wght@300;600&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,600;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,800;0,900;1,100;1,300;1,400;1,500;1,800;1,900&family=Vollkorn:ital,wght@0,500;0,600;0,800;1,400;1,600;1,700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  backdrop-filter: blur(7px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* navigation style */
+
+.d-flex {
+  display: flex;
+}
+
+#logo {
+  color: blueviolet;
+  font-weight: 900;
+}
+
+.fa-solid {
+  margin-right: 0.6rem;
+  font-size: 1.3rem;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+ul {
+  list-style: none;
+}
+
+#header {
+  width: 100%;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: darkgrey;
+  opacity: 0.8;
+}
+
+#nav-list {
+  justify-content: center;
+  align-items: center;
+}
+
+.a {
+  margin: 0 25px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+#link-list {
+  color: blue;
+}
+
+.nav-item + .nav-item {
+  border-left: 2px solid black;
+}
+
+.nav-item a:hover {
+  color: rgba(128, 0, 128, 0.92);
+}
+
+#clock {
+  text-align: right;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10% 15%;
+  text-align: center;
+}
+
+#main h1 {
+  padding-bottom: 15px;
+}
+
+/* #add-book {
+  display: none;
+}
+
+#contact {
+  display: none;
+} */
+
+/* main content style */
+
+.main-h2 {
+  padding-bottom: 20px;
+}
+
+#book-collection {
+  width: 80%;
+}
+
+#book_list {
+  border: thin solid grey;
+}
+
+.bookcard {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+#odd {
+  background-color: whitesmoke;
+}
+
+.removeBtn {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.submain-h2 {
+  margin: 30px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  height: 30px;
+  width: 250px;
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+#add_button {
+  width: 70px;
+  height: 25px;
+  margin-left: auto;
+}
+
+.contact-ul {
+  list-style-type: square;
+  margin-top: 50px;
+  padding-left: 40px;
+}
+
+.contact-li {
+  text-align: left;
+}
+
+footer {
+  height: 60px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: auto;
+}
+
+.hide {
+  display: none;
+}
